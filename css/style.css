@@ -24,6 +24,7 @@ h1, h2, h3, h4, h5, h6 {
 img {
 	border: none;
 }
+
 #main-content {
 	overflow: hidden;
 	background-color: #fff;
@@ -64,21 +65,13 @@ max-width: 100%;
 .slide-banner{
 	margin-bottom: 60px;
 }
+
 #main-content .top-content .content-graph{
 	text-align: center;
 	margin-bottom: 20px;
 }
-#main-content .top-content .content-graph .service-image{
-	  margin-bottom: 25px;
-}
-.content-graph p{
-	max-height: 180px;
-	overflow: hidden;
-}
-.content-graph h5{
-	font-size: 24px;
-}
-.service-image img{
+.content-graph a > img{
+	margin-bottom: 25px;
 	transition:All 1s ease;
 -webkit-transition:All 1s ease;
 -moz-transition:All 1s ease;
@@ -89,17 +82,29 @@ transform: rotate(4deg) scale(1) skew(0deg) translate(0px);
 -o-transform: rotate(4deg) scale(1) skew(0deg) translate(0px);
 -ms-transform: rotate(4deg) scale(1) skew(0deg) translate(0px);
 }
-.service-image img:hover{
-  transform: rotate(360deg) scale(1) skew(0deg) translate(0px);
+.content-graph a:hover> img{
+	transform: rotate(360deg) scale(1) skew(0deg) translate(0px);
 -webkit-transform: rotate(360deg) scale(1) skew(0deg) translate(0px);
 -moz-transform: rotate(360deg) scale(1) skew(0deg) translate(0px);
 -o-transform: rotate(360deg) scale(1) skew(0deg) translate(0px);
 -ms-transform: rotate(360deg) scale(1) skew(0deg) translate(0px);
 }
+.content-graph p{
+	max-height: 180px;
+	overflow: hidden;
+	color:#333;
+	font-weight:normal;
+}
+.content-graph h5{
+	font-size: 24px;
+}
 
-
-#main-content .middle-content{
-	margin-top: 30px;
+.middle-content-top{
+	background: url('../img/bg1.jpg');
+	background-size: cover;
+}
+.middle-content-bottom{
+	margin-top: 40px;
 	background-color: #F7F7F7;
 	border-width: 1px 1px 1px 4px;
   border-style: dashed dashed dashed solid;
@@ -160,5 +165,25 @@ transform: rotate(4deg) scale(1) skew(0deg) translate(0px);
     max-width: 50%;
 }
 }
+
+.effect-4 div{
+	-webkit-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+	-webkit-transform: translateZ(400px) translateY(300px) rotateX(-90deg);
+	transform: translateZ(400px) translateY(300px) rotateX(-90deg);
+	-webkit-animation: fallPerspective .8s ease-in-out forwards;
+	animation: fallPerspective .8s ease-in-out forwards;
+}
+
+@-webkit-keyframes fallPerspective {
+	0% { }
+	100% { -webkit-transform: translateZ(0px) translateY(0px) rotateX(0deg); opacity: 1; }
+}
+
+@keyframes fallPerspective {
+	0% { }
+	100% { -webkit-transform: translateZ(0px) translateY(0px) rotateX(0deg); transform: translateZ(0px) translateY(0px) rotateX(0deg); opacity: 1; }
+}
+
 
 
