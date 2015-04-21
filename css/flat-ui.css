@@ -900,11 +900,10 @@ a.muted:focus {
   font-weight: 500;
 }
 .btn {
+
   border: none;
-  background: #bdc3c7;
-  color: #ffffff;
-  padding: 9px 12px 10px;
-  line-height: 22px;
+/*  padding: 9px 12px 10px;
+  line-height: 22px;*/
   text-decoration: none;
   text-shadow: none;
   -webkit-border-radius: 6px;
@@ -922,8 +921,7 @@ a.muted:focus {
 .btn:hover,
 .btn:focus,
 .btn-group:focus .btn.dropdown-toggle {
-  background-color: #cacfd2;
-  color: #ffffff;
+
   outline: none;
   -webkit-transition: 0.25s;
   -moz-transition: 0.25s;
@@ -1267,18 +1265,18 @@ a.muted:focus {
   border-right-width: 6px;
   border-left-width: 6px;
 }
-.navbar {
+/*.navbar {
   font-size: 15.988px;
-  /* 16px */
 
-}
+
+}*/
 .navbar .brand {
   border-radius: 6px 0 0 6px;
   color: #526476;
   font-size: 23.996px;
   /* 24px */
 
-  font-weight: 700;
+  font-weight: 400;
   margin-left: 0;
   padding: 23px 28px 24px 32px;
   text-shadow: none;
@@ -1340,7 +1338,7 @@ a.muted:focus {
 }
 .navbar .nav > li > a {
   color: #526476;
-  font-weight: 700;
+  font-weight: 400;
   font-size: 14.994px;
   /* 15px */
 

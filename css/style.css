@@ -44,7 +44,9 @@ img {
 .nomargin{
 	margin: 0 !important;
 }
-
+.btn {
+	border-radius:0 !important;
+}	
 /*--------------------------------------------*/
 
 #header{
@@ -63,7 +65,7 @@ max-width: 100%;
 }
 
 .slide-banner{
-	margin-bottom: 60px;
+	margin-bottom: 80px;
 }
 
 #main-content .top-content .content-graph{
@@ -95,7 +97,7 @@ transform: rotate(4deg) scale(1) skew(0deg) translate(0px);
 	color:#333;
 	font-weight:normal;
 }
-.content-graph h5{
+.content-graph h3{
 	font-size: 24px;
 }
 
@@ -111,7 +113,13 @@ transform: rotate(4deg) scale(1) skew(0deg) translate(0px);
   border-color: #EAEAEA #EAEAEA #EAEAEA #1abc9c ;
 }
 
-
+.bottom-content-article h2{
+	font-size: 1.4em;
+	font-weight: 500;
+}
+.bottom-content-article h2 a{
+	color: #34495e;
+}
 /*--------------------- @MEDIA -----------------*/
 
 @media (max-width:480px) { 
