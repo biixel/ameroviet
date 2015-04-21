@@ -104,6 +104,15 @@ transform: rotate(4deg) scale(1) skew(0deg) translate(0px);
 .middle-content-top{
 	background: url('../img/bg1.jpg');
 	background-size: cover;
+	margin-top:30px;
+	color:#fff
+}
+.middle-content-top h3{
+	margin-bottom:20px
+}
+.middle-content-top p{
+	margin-top:20px;
+	font-size:16px
 }
 .middle-content-bottom{
 	margin-top: 40px;
@@ -112,13 +121,60 @@ transform: rotate(4deg) scale(1) skew(0deg) translate(0px);
   border-style: dashed dashed dashed solid;
   border-color: #EAEAEA #EAEAEA #EAEAEA #1abc9c ;
 }
+.middle-content-bottom article{
 
+}
+.middle-content-bottom .btnRegister{
+	margin-top:20px;
+}
+
+.bottom-content {
+	margin-top: 50px;
+}
+.bottom-content h2,h3{
+	font-weight: 500;
+}
+.bottom-content .blog-title{
+	text-align:center;
+	margin-bottom:30px;
+}
+.bottom-content .blog-title span{
+	font-size: 18px;
+}
+.bottom-content-article{
+	margin-bottom:30px
+}
+.bottom-content-article header{
+	margin-bottom:20px;
+
+}
+.bottom-content-article article{
+}
+.bottom-content-article article p{
+	font-size:16px;
+}
+.bottom-content-article article figure{
+	padding-left:0 !important;
+}
 .bottom-content-article h2{
 	font-size: 1.4em;
 	font-weight: 500;
 }
 .bottom-content-article h2 a{
 	color: #34495e;
+}
+.bottom-content-article h2 a:hover{
+	color:#1abc9c;
+}
+.bottom-content-article figure{
+	padding-right: 4%;
+  text-align: left;
+  width: 36%;
+}
+.bottom-content-article .info-bar{
+	border:1px solid #ccc;
+	  clear: both;
+  margin-top: 10px;
 }
 /*--------------------- @MEDIA -----------------*/
 
