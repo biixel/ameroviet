@@ -92,8 +92,7 @@ transform: rotate(4deg) scale(1) skew(0deg) translate(0px);
 -ms-transform: rotate(360deg) scale(1) skew(0deg) translate(0px);
 }
 .content-graph p{
-	max-height: 180px;
-	overflow: hidden;
+
 	color:#333;
 	font-weight:normal;
 }
@@ -112,7 +111,7 @@ transform: rotate(4deg) scale(1) skew(0deg) translate(0px);
 }
 .middle-content-top p{
 	margin-top:20px;
-	font-size:16px
+
 }
 .middle-content-bottom{
 	margin-top: 40px;
@@ -151,7 +150,7 @@ transform: rotate(4deg) scale(1) skew(0deg) translate(0px);
 .bottom-content-article article{
 }
 .bottom-content-article article p{
-	font-size:16px;
+
 }
 .bottom-content-article article figure{
 	padding-left:0 !important;
@@ -230,24 +229,60 @@ transform: rotate(4deg) scale(1) skew(0deg) translate(0px);
 }
 }
 
-.effect-4 div{
-	-webkit-transform-style: preserve-3d;
-	transform-style: preserve-3d;
-	-webkit-transform: translateZ(400px) translateY(300px) rotateX(-90deg);
-	transform: translateZ(400px) translateY(300px) rotateX(-90deg);
-	-webkit-animation: fallPerspective .8s ease-in-out forwards;
-	animation: fallPerspective .8s ease-in-out forwards;
+@media (max-width:991px ){
+	.content-graph{
+		padding:0 !important;
+	}
+	.content-graph p{
+	font-size:1.6em;
+}
+	.content-graph h3{
+		font-size:2.2em;
+	}
+	.middle-content-top,.middle-content-bottom{
+		text-align: center;
+		font-size: 1.6em !important;
+	}
+	
+	.bottom-content p{
+		font-size: 1.6em;
+	}
+
+}
+@media (max-width:767px){
+	h3{
+		font-size: 28px !important;
+	}
+	.content-graph p{
+		font-size:1.2em;
+	}
+
+	.middle-content-bottom p{
+		font-size: 0.8em;
+	}
+	.bottom-content p{
+		font-size: 1.2em;
+	}
 }
 
-@-webkit-keyframes fallPerspective {
-	0% { }
-	100% { -webkit-transform: translateZ(0px) translateY(0px) rotateX(0deg); opacity: 1; }
-}
 
-@keyframes fallPerspective {
-	0% { }
-	100% { -webkit-transform: translateZ(0px) translateY(0px) rotateX(0deg); transform: translateZ(0px) translateY(0px) rotateX(0deg); opacity: 1; }
-}
+
+ /*----------------------------------------------------------------*/
+
+#social:hover {
+    			-webkit-transform:scale(1.1); 
+-moz-transform:scale(1.1); 
+-o-transform:scale(1.1); 
+			}
+			#social {
+				-webkit-transform:scale(0.8);
+                /* Browser Variations: */
+-moz-transform:scale(0.8);
+-o-transform:scale(0.8); 
+-webkit-transition-duration: 0.5s; 
+-moz-transition-duration: 0.5s;
+-o-transition-duration: 0.5s;
+			}  
 
 
 
