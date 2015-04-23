@@ -192,6 +192,9 @@ transform: rotate(4deg) scale(1) skew(0deg) translate(0px);
     width: 75% \9; /*Force IE10 and below to size SVG images correctly*/
     max-width: 75%;
 }
+.footer-social a{
+	margin: 0px !important;
+}
 }
 
 @media (max-width:385px) { 
@@ -263,26 +266,37 @@ transform: rotate(4deg) scale(1) skew(0deg) translate(0px);
 	.bottom-content p{
 		font-size: 1.2em;
 	}
+	
 }
 
 
 
  /*----------------------------------------------------------------*/
 
-#social:hover {
-    			-webkit-transform:scale(1.1); 
--moz-transform:scale(1.1); 
--o-transform:scale(1.1); 
-			}
-			#social {
-				-webkit-transform:scale(0.8);
-                /* Browser Variations: */
--moz-transform:scale(0.8);
--o-transform:scale(0.8); 
--webkit-transition-duration: 0.5s; 
--moz-transition-duration: 0.5s;
--o-transition-duration: 0.5s;
-			}  
+.footer{
+	background-color:#f8f8f8;
+	margin-top: 80px;
+}
+.footer-social{
+	padding-top:30px;
+	text-align: center;
+}
+.footer-social a{
+	margin: 0 10px;
 
+}
+.footer .footer-social .btn{
+		background-color: #F8F8F8;
+  border: 1px solid #1abc9c;
+  color: #1abc9c;
+}
+.footer .footer-social .btn:hover{
+		background-color: #1abc9c;
+  color: #F8F8F8;
+}
+}
+.footer address{
+	margin-bottom: 10px;
+}
 
 

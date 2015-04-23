@@ -1,0 +1,13 @@
+
+
+
+/* Required */
+
+.hidden{
+	opacity: 0 !important;
+	display: block !important;
+}
+
+.visible{
+	opacity: 1 !important;
+}
