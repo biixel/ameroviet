@@ -686,17 +686,11 @@ you can use the generic selector below, but it's slower:
     margin: 0 0 10px;
   }
 }
-body {
 
-  font-family: "Lato", sans-serif;
-  font-size: 14px;
-  line-height: 1.231;
-}
 input,
 button,
 select,
 textarea {
-  font-family: "Lato", sans-serif;
   font-size: 14px;
 }
 a {
@@ -713,12 +707,10 @@ a:hover {
   text-decoration: none;
 }
 h1,
-.h1 {
-  font-size: 62.006px /* 64px */;
-}
+
 h2,
 .h2 {
-  font-size: 51.996px /* 52px */;
+  
 }
 h3,
 .h3 {
@@ -1519,7 +1511,6 @@ a.muted:focus {
 }
 .navbar-unread,
 .navbar-new {
-  font-family: "Lato", sans-serif;
   background-color: #1abc9c;
   border-radius: 50%;
   color: #ffffff;
@@ -1694,7 +1685,6 @@ background-color: #16a085;
   background-color: #ffffff;
   border: 2px solid transparent;
   color: #526476;
-  font-family: "Lato", sans-serif;
   font-size: 14.994px;
   /* 15px */
 
@@ -1903,7 +1893,6 @@ input[type="color"],
 .uneditable-input {
   border: 2px solid #bdc3c7;
   color: #34495e;
-  font-family: "Lato", sans-serif;
   font-size: 14px;
   padding: 8px 5px;
   height: 21px;
@@ -3310,7 +3299,6 @@ input.search-query {
   background: transparent;
   border: none;
   color: #34495e;
-  font-family: "Lato", sans-serif;
   font-size: 14px;
   margin: 0px;
   padding: 0 0 0 5px;
@@ -5408,7 +5396,6 @@ input.search-query {
   background-color: #2a7aaf;
   border-radius: 50%;
   color: #ffffff;
-  font-family: "Lato", sans-serif;
   font-size: 11.998px;
   font-weight: 500;
   line-height: 18.998px;

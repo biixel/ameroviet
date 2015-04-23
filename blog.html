@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css.map">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/flat-ui.css">
+	<link rel="stylesheet" type="text/css" href="css/scrolleffect/demo.css" />
+	<link rel="stylesheet" type="text/css" href="css/scrolleffect/animate.css" />
+	<script src="js/jquery.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/script.js"></script>
+</head>
+<body>
+	<div class="wrapper">
+		<!-- HEADER LOGO + MENU -->
+		<div id="header" class="navbar navbar-default col-md-12" role="navigation">
+			<div class="nopadding container">
+				<div class="navbar-header col-md-4 col-sm-4 nopadding">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a href="#" class="logo"><img src="img/Untitled-4.png" height="74" width="220" /></a>
+				</div>
+				<div class="col-md-8 col-sm-8 nopadding">
+					<nav class="navbar-collapse collapse nopadding">
+						<ul class="nav navbar-nav navbar-right">
+							<li>
+								<a href="#">
+									Amero Việt
+								</a>
+							</li>
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown</a>
+								<ul class="dropdown-menu" role="menu">
+									<li><a href="#">Action</a></li>
+									<li><a href="#">Another action</a></li>
+									<li><a href="#">Something else here</a></li>
+								</ul>
+							</li>
+							<li>
+								<a href="#">
+									Khóa Học
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									Liên Hệ
+								</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</div>	
+		</div>
+		<!-- END of HEADER LOGO + MENU -->
+<!-- END of SLIDE IMAGE -->
+		<div id="breadcrum" class="col-md-12 nopadding post">
+			<div class="container ">
+				<h1>Blog Bài Viết</h1>
+			</div>
+		</div>
+<!-- MAIN CONTENT -->
+		<div id="main-content" class="col-md-12 nopadding post">
+			<!-- TOP CONTENT -->
+			<div class="container blog-content nopadding ">
+				<div class="col-md-8 nopadding">
+					<div class="col-md-12 blog-article post">
+						<header class="col-md-12 nopadding">
+							<h2>
+								<a href="#" title="Super Fast Loading">Ngâm mình học Tiếng Anh - Tâm lí học viên</a>
+							</h2>
+						</header>
+						<figure class="pull-left col-md-12 nopadding">
+								<a href="#" title="Ngâm mình học Tiếng Anh - Tâm lí học viên"><img src="img/watch-270x270.jpg" class="img-responsive" alt="Super Fast Loading" title="Ngâm mình học Tiếng Anh - Tâm lí học viên"></a>
+							</figure>
+						<div class="col-md-12 nopadding">
+							<article class="nopadding">	
+								<p>Wafer apple pie tiramisu. Pie chocolate bar pie soufflé. Jelly chocolate donut marzipan. Chupa chups tootsie roll toffee dessert muffin apple pie. Sweet liquorice jelly beans oat cake oat cake unerdwear.com marshmallow fruitcake. Cookie lollipop carrot cake bear claw cotton</p>
+
+							</article>
+						</div>
+						<div class="info-bar col-md-12 nopadding">
+							<a style="background-color:none" class="btn" href="#"><span class="glyphicon glyphicon-user"></span> Amero Việt</a>
+							<a style="background-color:none" class="hidden-xs btn" href="#"><span class="glyphicon glyphicon-time"></span> April 4, 2014</a>
+							<a class="pull-right btn btn-primary"  href="#">Read more</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- END of TOP CONTENT -->
+		</div>
+<!--END of MAIN CONTENT -->
+
+
+
+		
+		<!-- FOOTER -->
+		<div class="col-md-12 footer nopadding">
+			<div class="container">
+				<div class="col-md-12 footer-social">
+				<a class="btn btn-primary" href="#">Facebook</a>
+				<a class="btn btn-primary" href="#">Google+</a>
+				<a class="btn btn-primary" href="#">Twitter</a>
+				<a class="btn btn-primary" href="#">Tumblr</a>
+				</div>
+			<div class="col-md-12" style="text-align:center; margin-top:15px">
+				<address>
+					<a href="#"><strong style="font-weight:normal;font-size:28px;">AMARO VIỆT</strong></a><br>
+					<strong>Địa chỉ:</strong>180-192 Nguyễn Công Trứ, Q1, TPHCM<br>
+					<strong>Điện thoại:</strong> (08)-3873073  <strong>Fax:</strong> 012545493<br>
+					<strong>Email:</strong> contact@amaroviet.com
+				</address>
+			</div>
+			</div>
+		</div>
+		<!-- END of FOOTER -->
+	</div>
+<script src="js/scrolleffect/jquery.min.js"></script> 
+<script src="js/scrolleffect/viewportchecker.js"></script>
+<script type="text/javascript">
+	jQuery(document).ready(function() {
+		jQuery('.post').addClass("hidden").viewportChecker({
+classToAdd: 'visible animated fadeInDown', // Class to add to the elements when they are visible
+offset: 100    
+});   
+	});            
+</script></body>
+</html>
