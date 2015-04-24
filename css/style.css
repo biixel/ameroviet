@@ -7,7 +7,6 @@ font-style: normal;
 @font-face {
 font-family: "Roboto";
 src: url('fonts/Roboto.ttf');
-font-weight: normal;
 font-style: normal;
 }
 
@@ -149,7 +148,10 @@ transform: rotate(4deg) scale(1) skew(0deg) translate(0px);
 .bottom-content-article{
 	margin-bottom:30px
 }
-.bottom-content-article header{
+.bottom-content-article figure{
+	height: 200px;
+}
+.bottom-content-article header , .blog-article header, .blog-article figure{
 	margin-bottom:20px;
 
 }
@@ -161,8 +163,8 @@ transform: rotate(4deg) scale(1) skew(0deg) translate(0px);
 .bottom-content-article article figure{
 	padding-left:0 !important;
 }
-.bottom-content-article h2{
-	font-size: 1.4em;
+.bottom-content-article h2 , .blog-article h2{
+	font-size: 1.6em;
 	font-weight: 500;
 }
 .bottom-content-article h2 a{
@@ -181,6 +183,24 @@ transform: rotate(4deg) scale(1) skew(0deg) translate(0px);
 	  clear: both;
   margin-top: 10px;
 }
+
+.bottom-content-article .info-bar .info-button, .blog-article .info-bar .info-button {
+	background-color:none
+}
+
+.blog-content{
+	margin-top:25px;
+}
+.blog-content .blog-article:first-child
+{
+	margin-top:0;
+}
+.blog-content .blog-article {
+	margin-top: 50px;
+}
+.rightbar .rightbar-content ul li h2{
+	font-size:18px;
+}
 /*--------------------- @MEDIA -----------------*/
 
 @media (max-width:480px) { 
@@ -191,15 +211,24 @@ transform: rotate(4deg) scale(1) skew(0deg) translate(0px);
 #main-content .top-content .content-graph{
 	padding: 0 !important;
 }
+.bottom-content-article figure{
+	height: 100px;
+}
 }
 
-@media (max-width:400px) { 
+@media (max-width:401px) { 
 .logo img {
     width: 75% \9; /*Force IE10 and below to size SVG images correctly*/
     max-width: 75%;
 }
 .footer-social a{
 	margin: 0px !important;
+}
+.blog-content{
+	margin-top:20px;
+}
+.footer{
+	margin-top: 20px !important;
 }
 }
 
@@ -312,5 +341,11 @@ transform: rotate(4deg) scale(1) skew(0deg) translate(0px);
   padding: 20px 0;
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.05) inset;
   background-color: rgb(249, 249, 249);
+
+}
+#breadcrum h1 a{
+	font-weight: normal;
+	color:#34495e;
+	font-size: 0.8em;
 }
 

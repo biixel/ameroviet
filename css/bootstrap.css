@@ -1583,17 +1583,17 @@ pre code {
 }
 @media (min-width: 768px) {
   .container {
-    width: 750px;
+    width: 738px;
   }
 }
 @media (min-width: 992px) {
   .container {
-    width: 970px;
+    width: 958px;
   }
 }
 @media (min-width: 1220px) {
   .container {
-    width: 1218px;
+    width: 1190px;
   }
 }
 .container-fluid {
